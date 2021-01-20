@@ -25,7 +25,6 @@ body {
 }
 .header span {
   font-size: 35px;
-  font-family: 'Dancing Script', cursive;
   font-weight: 700;
 }
 .header span:hover {
@@ -151,7 +150,7 @@ body {
   text-decoration: none;
 }
 .size {
-  height: 50px;
+  height: 70px;
 }
 .size-img img {
   width: 40px;
@@ -161,6 +160,22 @@ body {
 } 
 .username-size span {
   font-size: 12px;
+}
+.size-a a {
+  font-size: 15px;
+  padding-bottom: 6px;
+  padding-right: 108px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row a {
+  padding-right: 5px;
+}
+.row span {
+  margin-top: 2px;
+  padding: 0;
 }
 .alignt {
   margin-left: 53px;
@@ -250,6 +265,52 @@ body {
   margin-bottom: 4%;
 }
 .border {
+  display: flex;
   align-items: center;
+  justify-content: space-around;
   border-bottom: 1px solid #b6b6b6;
+}
+
+.login button {
+  height: 30px;
+  background: #fff;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.login button:focus {
+  outline: 0;
+}
+.followers {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+}
+.followers span {
+  font-size: 16px;
+  color: #fff;
+}
+.followers span:hover {
+  color: #fff;
+}
+.no-border {
+  border: 0px;
+}
+.login img {
+  width: 40px;
+  height: 40px;
+}
+.span-padding {
+  padding-right: 63px;
+}
+.no-border-2 {
+  border-radius: 0px;
+}
+.span-padding-2 {
+  margin-right: 64px;
 }
