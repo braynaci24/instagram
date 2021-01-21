@@ -361,9 +361,7 @@ body {
     margin: 10px;
     border-width: 3px;
   }
-  .secret-menu:hover {
-    display: none;
-  }
+  
   .post-action-bar {
     padding-right: 10px;
     padding-left: 10px;
@@ -371,9 +369,11 @@ body {
   .post-action-bar-2 i{
     font-size: 50px;
     margin-right: 20%;
+    margin-top: 2%;
   }
   .save-icon i {
     font-size: 50px;
+    margin-top: 13px;
   }
   .comment a, span {
     font-size: 30px;
@@ -393,5 +393,10 @@ body {
   .icons a {
     font-size: 50px;
     margin-right: 30px;
+  }
+  .secret-menu:hover .heart-menu {
+    display: none;
+  }
+  .stories a:hover {
   }
 }
